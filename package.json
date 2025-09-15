@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@netlify/next": "^1.4.9",
     "@react-three/drei": "^10.7.6",
     "framer-motion": "^12.23.12",
     "lucide-react": "^0.544.0",
