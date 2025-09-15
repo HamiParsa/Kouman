@@ -46,10 +46,21 @@ What Is Kouman? It’s not just merch—it’s a lifestyle. A whirlwind of energ
   <img src="/pic1.png" width="700px" />
   <br/><br/>
   <img src="/pic2.png" width="700px" />
-  <br/><br/>
+</div>
+<hr/>
+<div align="center">
   <img src="/pic3.png" width="700px" />
   <br/><br/>
   <img src="/pic4.png" width="700px" />
-  <br/><br/>
-  <img src="/pic5.png" width="700px" />
 </div>
+<hr/>
+<div align="center">
+  <img src="/pic5.png" width="700px" />
+  <br/><br/>
+  <img src="/pic6.png" width="700px" />
+</div>
+<hr/>
+<div align="center">
+  <img src="/pic7.png" width="700px" />
+</div>
+
