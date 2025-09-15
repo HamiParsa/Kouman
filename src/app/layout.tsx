@@ -1,7 +1,16 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 
+import { PT_Sans } from 'next/font/google'
+
+const ptSans = PT_Sans({
+  subsets: ['latin'],  // حروف لاتین
+  weight: ['400', '700'], // می‌تونی وزن‌های دلخواه رو اضافه کنی
+  display: 'swap',       // حالت بهینه برای لود فونت
+})
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -23,11 +32,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={ptSans.className}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <NavBar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
