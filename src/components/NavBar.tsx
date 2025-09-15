@@ -103,17 +103,19 @@ export default function NavBar() {
           ))}
 
           {/* Mobile cart display */}
-          <div className="mt-4 text-white flex">
-            Cart
-            <motion.button whileHover={{ scale: 1.05 }} className="relative">
-              <ShoppingCart className="w-7 h-7 text-pink-400" />
-              {totalQuantity > 0 && (
-                <span className="absolute -top-2 -right-2 bg-pink-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
-                  {totalQuantity}
-                </span>
-              )}
-            </motion.button>
-          </div>
+          <Link href='/cart'>
+            <div onClick={() => setMobileMenuOpen(false)} className="mt-4 text-white flex">
+              Cart
+              <motion.button whileHover={{ scale: 1.05 }} className="relative">
+                <ShoppingCart className="w-7 h-7 text-pink-400" />
+                {totalQuantity > 0 && (
+                  <span className="absolute -top-2 -right-2 bg-pink-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
+                    {totalQuantity}
+                  </span>
+                )}
+              </motion.button>
+            </div>
+          </Link>
         </motion.nav>
       )}
     </header>
