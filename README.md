@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Kouman Project</h1>
   <p>Click on the GitHub icon below to view the project online.</p>
-  <a href="https://68c7ac2f4c5bce0008b0353f--kouman.netlify.app/">
+  <a href="https://68c7cfef92baf200086bf1ff--kouman.netlify.app/">
     <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
 </div>
