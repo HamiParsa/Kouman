@@ -1,7 +1,7 @@
 <div align="center">
   <h1>🖤 Kouman Project</h1>
   <p>Clothing merch website — stylish, interactive, and fully responsive 👕</p>
-  <a href="https://68f35fa594d264c6ff4b4366--brilliant-brioche-644fbd.netlify.app/">
+  <a href="https://kouman.netlify.app/">
     <img src="https://img.shields.io/badge/View_Live_Project-000000?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
 </div>
