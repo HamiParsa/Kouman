@@ -25,6 +25,7 @@
 
 
 
+
 <div align="center">
   <h1>🖤 Kouman Project</h1>
   <p>Clothing merch website — stylish, interactive, and fully responsive 👕</p>
